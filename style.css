@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-container {
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px solid rgba(8, 8, 8, 0.5);
+  border: solid white 2px;
+  border-radius: 50%;
+}
